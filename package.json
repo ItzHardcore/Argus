@@ -1,0 +1,26 @@
+{
+  "name": "Argus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/input.css -o public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzHardcore/Argus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzHardcore/Argus/issues"
+  },
+  "homepage": "https://github.com/ItzHardcore/Argus#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.5"
+  }
+}
