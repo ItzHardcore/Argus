@@ -11,6 +11,9 @@ module.exports = {
         body: "1.25rem",
         footer: "2.1875rem",
         SecondFooter: "0.68rem",
+        Page3_Firstcontent_1:"0.875rem",
+        Page3_Firstcontent_2:"4.5rem",
+        Page3_Firstcontent_3:"1.5rem",
       },
       padding: {
         10: "2.5rem",
