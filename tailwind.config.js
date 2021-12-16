@@ -11,6 +11,7 @@ module.exports = {
         body: "1.25rem",
         footer: "2.1875rem",
         SecondFooter: "0.68rem",
+        Argus: "1.625rem",
       },
       padding: {
         10: "2.5rem",
@@ -21,6 +22,10 @@ module.exports = {
       },
       height: {
         160: "10rem",
+      },
+      fontFamily: {
+        Argus: ["Noto"],
+        Lato: ["Lato"],
       },
     },
   },
