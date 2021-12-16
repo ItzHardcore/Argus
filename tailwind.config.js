@@ -12,6 +12,7 @@ module.exports = {
         footer: "2.1875rem",
         SecondFooter: "0.68rem",
         Argus: "1.625rem",
+        LandingPageBody: "0.875rem",
       },
       padding: {
         10: "2.5rem",
@@ -26,6 +27,7 @@ module.exports = {
       fontFamily: {
         Argus: ["Noto"],
         Lato: ["Lato"],
+        DmSerif: ["Dm"],
       },
     },
   },
