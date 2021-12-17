@@ -28,6 +28,7 @@ module.exports = {
         Argus: ["Noto"],
         Lato: ["Lato"],
         DmSerif: ["DM Serif Text"],
+
       },
     },
   },
