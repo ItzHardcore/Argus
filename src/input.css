@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 
 @tailwind base;
@@ -72,5 +73,11 @@
         font-family: theme('fontFamily.Lato');
         line-height: 1.25rem;
         font-weight: 700;
+    }
+    .footerArgus{
+        font-size: .75rem;
+        font-family: theme('fontFamily.Roboto');
+        line-height: 1.75rem;
+        font-weight: 400;
     }
 }
