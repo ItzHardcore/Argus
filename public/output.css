@@ -620,6 +620,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-5{
   margin-top: 1.25rem;
 }
+.mr-2{
+  margin-right: 0.5rem;
+}
 .block{
   display: block;
 }
@@ -638,6 +641,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-4{
   height: 1rem;
 }
+.h-160{
+  height: 10rem;
+}
 .w-full{
   width: 100%;
 }
@@ -652,6 +658,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-7xl{
   max-width: 80rem;
+}
+.resize-none{
+  resize: none;
 }
 .appearance-none{
   -webkit-appearance: none;
@@ -757,6 +766,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(224 231 255 / var(--tw-bg-opacity));
 }
+.bg-\[\#6499FC\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 153 252 / var(--tw-bg-opacity));
+}
+.bg-\[\#F4F6FB\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 246 251 / var(--tw-bg-opacity));
+}
 .bg-\[url\(\'\/public\/components\/Page3_Background\.png\'\)\]{
   background-image: url('/public/components/Page3_Background.png');
 }
@@ -765,6 +782,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .bg-\[url\(\'\/public\/components\/Page5_Background\.png\'\)\]{
   background-image: url('/public/components/Page5_Background.png');
+}
+.bg-\[url\(\'\/public\/components\/AboutUs\/AboutUs_Background\.png\'\)\]{
+  background-image: url('/public/components/AboutUs/AboutUs_Background.png');
+}
+.bg-\[url\(\'\/public\/components\/AboutUs\/Contacts_Background\.png\'\)\]{
+  background-image: url('/public/components/AboutUs/Contacts_Background.png');
+}
+.bg-\[url\(\'\/public\/components\/Contacts\/Contacts_Background\.png\'\)\]{
+  background-image: url('/public/components/Contacts/Contacts_Background.png');
 }
 .bg-cover{
   background-size: cover;
@@ -829,8 +855,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-2{
   padding-bottom: 0.5rem;
 }
-.pl-20{
-  padding-left: 5rem;
+.pl-10{
+  padding-left: 2.5rem;
 }
 .pr-4{
   padding-right: 1rem;
@@ -853,8 +879,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-8{
   padding-bottom: 2rem;
 }
-.pl-10{
-  padding-left: 2.5rem;
+.pt-16{
+  padding-top: 4rem;
+}
+.pl-2{
+  padding-left: 0.5rem;
+}
+.pr-32{
+  padding-right: 8rem;
 }
 .text-left{
   text-align: left;
@@ -864,6 +896,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-right{
   text-align: right;
+}
+.font-Lato{
+  font-family: Lato;
+}
+.font-DmSerif{
+  font-family: DM Serif Text;
 }
 .text-headings{
   font-size: 3.25rem;
