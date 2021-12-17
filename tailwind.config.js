@@ -11,9 +11,8 @@ module.exports = {
         body: "1.25rem",
         footer: "2.1875rem",
         SecondFooter: "0.68rem",
-        Page3_Firstcontent_1:"0.875rem",
-        Page3_Firstcontent_2:"4.5rem",
-        Page3_Firstcontent_3:"1.5rem",
+        Argus: "1.625rem",
+        LandingPageBody: "0.875rem",
       },
       padding: {
         10: "2.5rem",
@@ -21,6 +20,14 @@ module.exports = {
       },
       width: {
         500: "53vh",
+      },
+      height: {
+        160: "10rem",
+      },
+      fontFamily: {
+        Argus: ["Noto"],
+        Lato: ["Lato"],
+        DmSerif: ["DM Serif Text"],
       },
     },
   },
