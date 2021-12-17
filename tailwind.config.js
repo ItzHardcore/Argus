@@ -27,7 +27,8 @@ module.exports = {
       fontFamily: {
         Argus: ["Noto"],
         Lato: ["Lato"],
-        DmSerif: ["Dm"],
+        DmSerif: ["DM Serif Text"],
+
       },
     },
   },
