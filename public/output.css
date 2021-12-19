@@ -816,6 +816,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-transparent{
   border-color: transparent;
 }
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
 .bg-\[\#0F2637\]{
   --tw-bg-opacity: 1;
   background-color: rgb(15 38 55 / var(--tw-bg-opacity));
@@ -866,6 +870,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .bg-\[url\(\'\/public\/components\/Contacts_Background\.png\'\)\]{
   background-image: url('/public/components/Contacts_Background.png');
+}
+.bg-\[url\(\'\/public\/components\/Financial_Services\/Financial_Services_Background\.png\'\)\]{
+  background-image: url('/public/components/Financial_Services/Financial_Services_Background.png');
 }
 .bg-cover{
   background-size: cover;
@@ -1001,6 +1008,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-8{
   padding-bottom: 2rem;
+}
+.pl-32{
+  padding-left: 8rem;
 }
 .text-left{
   text-align: left;
