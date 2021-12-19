@@ -32,5 +32,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  variants: {
+    display: ["group-hover"],
+  },
+  plugins: [require("@themesberg/flowbite/plugin")],
 };
