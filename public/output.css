@@ -852,6 +852,9 @@ input[type=file]::file-selector-button:hover{
 .items-center{
   align-items: center;
 }
+.items-baseline{
+  align-items: baseline;
+}
 .justify-between{
   justify-content: space-between;
 }
@@ -860,6 +863,9 @@ input[type=file]::file-selector-button:hover{
 }
 .gap-4{
   gap: 1rem;
+}
+.gap-10{
+  gap: 2.5rem;
 }
 .place-self-start{
   place-self: start;
@@ -908,6 +914,9 @@ input[type=file]::file-selector-button:hover{
 }
 .border-b-\[0\.03125rem\]{
   border-bottom-width: 0.03125rem;
+}
+.border-l-2{
+  border-left-width: 2px;
 }
 .border-solid{
   border-style: solid;
@@ -1033,6 +1042,10 @@ input[type=file]::file-selector-button:hover{
 .px-40{
   padding-left: 10rem;
   padding-right: 10rem;
+}
+.px-72{
+  padding-left: 18rem;
+  padding-right: 18rem;
 }
 .pl-10{
   padding-left: 2.5rem;
