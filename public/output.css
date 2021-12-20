@@ -1026,6 +1026,14 @@ input[type=file]::file-selector-button:hover{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.px-40{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 .pl-10{
   padding-left: 2.5rem;
 }
