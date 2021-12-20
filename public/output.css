@@ -795,6 +795,9 @@ input[type=file]::file-selector-button:hover{
 .h-160{
   height: 10rem;
 }
+.h-full{
+  height: 100%;
+}
 .w-full{
   width: 100%;
 }
@@ -1216,6 +1219,10 @@ input[type=file]::file-selector-button:hover{
 .hover\:text-\[\#F4F6FB\]:hover{
   --tw-text-opacity: 1;
   color: rgb(244 246 251 / var(--tw-text-opacity));
+}
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .hover\:underline:hover{
   -webkit-text-decoration-line: underline;
