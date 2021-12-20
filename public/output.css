@@ -915,13 +915,13 @@ input[type=file]::file-selector-button:hover{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
-.border-\[\#6499FC\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(100 153 252 / var(--tw-border-opacity));
-}
 .border-\[\#C3D1EC\]{
   --tw-border-opacity: 1;
   border-color: rgb(195 209 236 / var(--tw-border-opacity));
+}
+.border-\[\#6499FC\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(100 153 252 / var(--tw-border-opacity));
 }
 .bg-white{
   --tw-bg-opacity: 1;
@@ -962,11 +962,11 @@ input[type=file]::file-selector-button:hover{
 .bg-\[url\(\'\/public\/components\/Landing_Page\/Landing_Page_Background\.png\'\)\]{
   background-image: url('/public/components/Landing_Page/Landing_Page_Background.png');
 }
-.bg-\[url\(\'\/public\/components\/Landing_Page\/Landing_Page_Footer\.png\'\)\]{
-  background-image: url('/public/components/Landing_Page/Landing_Page_Footer.png');
-}
 .bg-\[url\(\'\/public\/components\/Professional_Services\/Background\.png\'\)\]{
   background-image: url('/public/components/Professional_Services/Background.png');
+}
+.bg-\[url\(\'\/public\/components\/Landing_Page\/Landing_Page_Footer\.png\'\)\]{
+  background-image: url('/public/components/Landing_Page/Landing_Page_Footer.png');
 }
 .bg-cover{
   background-size: cover;
@@ -988,6 +988,9 @@ input[type=file]::file-selector-button:hover{
 }
 .p-6{
   padding: 1.5rem;
+}
+.p-96{
+  padding: 24rem;
 }
 .px-4{
   padding-left: 1rem;
@@ -1012,6 +1015,10 @@ input[type=file]::file-selector-button:hover{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.px-72{
+  padding-left: 18rem;
+  padding-right: 18rem;
 }
 .pl-10{
   padding-left: 2.5rem;
@@ -1090,6 +1097,9 @@ input[type=file]::file-selector-button:hover{
 }
 .pb-3{
   padding-bottom: 0.75rem;
+}
+.pb-28{
+  padding-bottom: 7rem;
 }
 .pt-24{
   padding-top: 6rem;
