@@ -828,6 +828,9 @@ input[type=file]::file-selector-button:hover{
 .h-full{
   height: 100%;
 }
+.h-12{
+  height: 3rem;
+}
 .w-full{
   width: 100%;
 }
@@ -1134,6 +1137,9 @@ input[type=file]::file-selector-button:hover{
 .pb-3{
   padding-bottom: 0.75rem;
 }
+.pl-36{
+  padding-left: 9rem;
+}
 .pt-24{
   padding-top: 6rem;
 }
@@ -1157,6 +1163,9 @@ input[type=file]::file-selector-button:hover{
 }
 .pb-12{
   padding-bottom: 3rem;
+}
+.pr-36{
+  padding-right: 9rem;
 }
 .text-left{
   text-align: left;
@@ -1195,9 +1204,6 @@ input[type=file]::file-selector-button:hover{
 }
 .uppercase{
   text-transform: uppercase;
-}
-.italic{
-  font-style: italic;
 }
 .leading-tight{
   line-height: 1.25;
